@@ -8,7 +8,9 @@ const userSchema = new mongoose.Schema({
   mobile: { type: String, required: true },
   password: { type: String, required: true },
   dob: { type: Date },
-  gender: { type: String }
+  gender: { type: String },
+  isVerified: { type: Boolean, default: false },
+  timestamp: { type: Date, default: Date.now }
 });
 
 // Create a pre-save middleware to generate userId

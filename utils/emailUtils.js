@@ -12,8 +12,8 @@ const generateOTP = () => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'your.email@gmail.com', // replace with your email
-        pass: 'your-app-specific-password' // replace with your app password
+        user: 'helpdesk.reviewreward@gmail.com', // replace with your email
+        pass: 'meph hlci vwis manp' // replace with your app password
     }
 });
 
